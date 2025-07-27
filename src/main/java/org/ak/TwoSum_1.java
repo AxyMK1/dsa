@@ -3,6 +3,8 @@ package org.ak;
 import java.util.HashMap;
 import java.util.Map;
 
+// https://leetcode.com/problems/two-sum
+
 // Time Complexity: O(n), where n is the number of elements in the array. This is because we traverse through the array once, and for each element, we perform O(1) operations to calculate the complement and check if it is in the hashmap.
 
 // Space Complexity: O(n), as in the worst case, we might have to store all the n elements in the hashmap.
